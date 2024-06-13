@@ -1,0 +1,155 @@
+:root {
+  --cor1: #160c28;
+  --cor2: #efcb68;
+  --cor3: #e1efe6;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.titulo {
+  font-size: 2rem;
+  color: var(--cor2);
+}
+
+.subtitulo {
+  font-size: 2rem;
+}
+
+#link-home {
+  font-size: 3rem;
+  color: var(--cor2);
+  position: fixed;
+  z-index: 100;
+  right: 20px;
+  bottom: 40px;
+  background-color: var(--cor3);
+  border-radius: 50%;
+}
+
+header {
+  position: fixed;
+  width: 100vw;
+  height: 4rem;
+  background-color: var(--cor1);
+}
+header a {
+  color: var(--cor2);
+  padding: 0 1rem;
+}
+.header-menu {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.home {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 4rem;
+  background-image: url("./../assets/imagem-home.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.home h2 {
+  color: var(--cor3);
+}
+
+#sobre {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 4rem;
+}
+
+#contato {
+  width: 100vw;
+  height: 50vh;
+  background: var(--cor1);
+  color: var(--cor2);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4rem;
+}
+
+#contato a {
+  color: var(--cor3);
+}
+
+#contato ul {
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+#contato i {
+  padding-right: 10px;
+}
+
+#formacoes {
+  width: 100vw;
+  padding: 4rem;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4rem;
+}
+
+#formacoes ul {
+  margin-bottom: 1rem;
+  font-weight: lighter;
+}
+
+#formacoes li {
+  padding-right: 10rem;
+  font-weight: bold;
+}
+
+#experiencias {
+  width: 100vw;
+  height: 50vh;
+  padding: 4rem;
+  background-color: var(--cor1);
+  color: var(--cor2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4rem;
+  gap: 30rem;
+}
+
+#experiencias li {
+  font-weight: bold;
+}
+#experiencias ul {
+  font-weight: lighter;
+  color: var(--cor3);
+}
+#experiencias p {
+  font-weight: normal;
+}
+footer {
+  width: 100vw;
+  background-color: var(--cor2);
+  display: flex;
+  padding: 1rem 4rem;
+  justify-content: space-between;
+  color: var(--cor3);
+}
+footer a {
+  color: var(--cor3);
+}
