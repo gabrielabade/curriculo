@@ -1,8 +1,9 @@
 :root {
-  --cor1: #160c28;
-  --cor2: #efcb68;
-  --cor3: #e1efe6;
+  --cor1: #53195D;
+  --cor2: #AB4ABA;
+  --cor3: #FBEBFB;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -38,10 +39,12 @@ header {
   height: 4rem;
   background-color: var(--cor1);
 }
+
 header a {
   color: var(--cor2);
   padding: 0 1rem;
 }
+
 .header-menu {
   display: flex;
   height: 100%;
@@ -72,6 +75,11 @@ header a {
   flex-direction: column;
   justify-content: center;
   padding: 0 4rem;
+  background-color: var(--cor3);
+}
+
+#sobre h3 {
+  color: var(--cor1);
 }
 
 #contato {
@@ -107,21 +115,26 @@ header a {
   align-items: center;
   justify-content: space-between;
   padding: 0 4rem;
+  background-color: var(--cor3);
+}
+
+#formacoes h3 {
+  color: #53195D;
 }
 
 #formacoes ul {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   font-weight: lighter;
 }
 
 #formacoes li {
-  padding-right: 10rem;
+  padding-right: 7rem;
   font-weight: bold;
 }
 
 #experiencias {
   width: 100vw;
-  height: 50vh;
+  height: 60vh;
   padding: 4rem;
   background-color: var(--cor1);
   color: var(--cor2);
@@ -129,19 +142,49 @@ header a {
   align-items: center;
   justify-content: space-between;
   padding: 0 4rem;
-  gap: 30rem;
+  gap: 14rem;
 }
 
 #experiencias li {
   font-weight: bold;
+  text-align: right;
+
 }
+
 #experiencias ul {
   font-weight: lighter;
   color: var(--cor3);
 }
+
 #experiencias p {
   font-weight: normal;
 }
+
+#skills {
+  width: 100vw;
+  padding: 4rem;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4rem;
+  background-color: var(--cor3);
+}
+
+#skills h3 {
+  color: #53195D;
+}
+
+#skills ul {
+  margin-bottom: 1rem;
+  font-weight: lighter;
+}
+
+#skills li {
+  padding-right: 7rem;
+  font-weight: bold;
+}
+
 footer {
   width: 100vw;
   background-color: var(--cor2);
@@ -150,6 +193,8 @@ footer {
   justify-content: space-between;
   color: var(--cor3);
 }
+
 footer a {
   color: var(--cor3);
 }
+
